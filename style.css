@@ -15,6 +15,9 @@ body {
   padding: 0;
   background-color: #EADDE2;
 }
+p{
+  text-indent:25px;
+}
 
 /* cabeçalho */
 header {
@@ -55,8 +58,9 @@ header .aperte a {
 
 .conteudo-texto {
   border-left: 2.9vw #981944 solid;
-  padding: 15px;
+  padding: 0 15%;
   background: linear-gradient(to top, rgba(201, 209, 216, 0.2705882353), #EADDE2);
+  
 }
 .conteudo-texto .imgOds8 {
   height: 100px;
