@@ -73,7 +73,10 @@ header .aperte a {
   float: right;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+.video{
+  display: flex;
+  justify-content: center;
+}
 /* rodape */
 #eu {
   background: linear-gradient(to bottom, rgba(201, 209, 216, 0.2705882353), #EADDE2);
