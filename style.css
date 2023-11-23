@@ -12,10 +12,11 @@ html {
 }
 
 body {
-  font-size: 25px;
+  font-size: 1.6rem;
   margin: 0;
   padding: 0;
   background-color: #EADDE2;
+
 }
 
 p {
@@ -46,7 +47,7 @@ header .aperte {
 header .aperte ul {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 55px;
 }
 
 header .aperte li {
@@ -59,9 +60,6 @@ header .aperte a {
 }
 
 /* Corpo da página */
-.container-introducao {
-  display: flex;
-}
 
 #img-banner {
   width: 100%;
@@ -71,7 +69,8 @@ header .aperte a {
 .conteudo-texto {
   background: linear-gradient(to top, #fff, #EADDE2);
   border-left: 2.9vw solid #981944;
-  padding: 0 15%;
+  padding: 40px 15% 0 15%;
+
 }
 
 .conteudo-texto .imgOds8 {
@@ -81,8 +80,19 @@ header .aperte a {
   margin-right: 0.5%;
 }
 
+#oque-sao .logo-oficial-ods {
+  display: flex;
+  float: right;
+  height: 300px;
+  max-width: 450px;
+}
+
+#definicaoOds8 ol li {
+  margin-bottom: 15px;
+}
+
 #metasOds8 ul li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* rodape */
@@ -126,6 +136,7 @@ header .aperte a {
 
 .section-sobre-mim .coluna-left p {
   text-align: left;
+  font-size: 24px;
 }
 
 #rodape {
